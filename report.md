@@ -81,7 +81,7 @@ train_transform = transforms.Compose([
 
 ### 1.4 訓練策略
 
-本專案採用了多種先進的訓練策略來提高模型性能：
+本專案採用了多種訓練策略來提高模型性能：
 
 1. **Mixup 數據增強**（alpha=0.8）
 
