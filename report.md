@@ -184,7 +184,7 @@ train_transform = transforms.Compose([
    PE_(pos,2i+1) = cos(pos/10000^(2i/d_model))
    ```
 
-在我們的實現中，我們主要關注最後一層 transformer block 的注意力權重：
+我們主要關注最後一層 transformer block 的注意力權重：
 
 1. 提取 QKV 矩陣
 2. 計算注意力分數
